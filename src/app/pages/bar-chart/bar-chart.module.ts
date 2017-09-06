@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { BarChartRoutingModule } from './bar-chart-routing.module';
 import { BarChartComponent } from './bar-chart.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    BarChartRoutingModule
   ],
-  declarations: [BarChartComponent]
+  declarations: [
+    BarChartComponent
+  ]
 })
 export class BarChartModule { }
