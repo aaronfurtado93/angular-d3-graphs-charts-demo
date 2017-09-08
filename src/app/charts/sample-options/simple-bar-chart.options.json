@@ -1,5 +1,6 @@
 {
   "chartContainerHeight": 1024,
   "chartContainerWidth": 1024,
-  "dataVisualizationPadding": 2
+  "dataVisualizationPaddingBetweenItems": 2,
+  "dataVisualizationPaddingChartTopPercent": 0.1
 }

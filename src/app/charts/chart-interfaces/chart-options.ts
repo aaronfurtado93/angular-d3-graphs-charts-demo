@@ -1,5 +1,12 @@
 export interface ChartOptions {
   chartContainerHeight: number;
   chartContainerWidth: number;
-  dataVisualizationPadding: number;
+  dataVisualizationPaddingBetweenItems: number;
+  dataVisualizationPaddingChartTopPercent: number;
+  chartGradient?: string;
+  barRgbaColors?: {
+    red: number,
+    green: number,
+    blue: number
+  };
 }
