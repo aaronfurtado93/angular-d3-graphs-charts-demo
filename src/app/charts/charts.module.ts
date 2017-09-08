@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CBarModule } from './c-bar/cbar.module';
+import { CBarModule } from './cbar/cbar.module';
 
 @NgModule({
   imports: [
