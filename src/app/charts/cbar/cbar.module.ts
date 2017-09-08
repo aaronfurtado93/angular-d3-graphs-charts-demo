@@ -6,6 +6,14 @@ import { CBarComponent } from './cbar.component';
   imports: [
     CommonModule
   ],
-  declarations: [CBarComponent]
+  declarations: [
+    CBarComponent
+  ],
+  entryComponents: [
+    CBarComponent
+  ],
+  exports: [
+    CBarComponent
+  ]
 })
 export class CBarModule { }

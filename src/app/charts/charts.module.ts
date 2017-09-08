@@ -7,6 +7,9 @@ import { CBarModule } from './cbar/cbar.module';
     CommonModule,
     CBarModule
   ],
-  declarations: []
+  declarations: [],
+  exports: [
+    CBarModule
+  ]
 })
 export class ChartsModule { }
