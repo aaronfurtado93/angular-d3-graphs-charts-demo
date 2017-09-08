@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ChartOptions } from '../../charts/chart-interfaces/chart-options';
+
+import simpleArrayDataSet from '../../charts/sample-data/simple-array.dataset.json';
+import simpleBarChartOptions from '../../charts/sample-options/simple-bar-chart.options.json';
 
 @Component({
   selector: 'app-bar-chart',
@@ -7,7 +11,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BarChartComponent implements OnInit {
 
-  constructor() { }
+  dataSet;
+
+  chartOptions: ChartOptions;
+
+  constructor() {
+    this.dataSet = simpleArrayDataSet;
+    this.chartOptions = simpleBarChartOptions;
+  }
 
   ngOnInit() {
   }
