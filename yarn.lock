@@ -265,6 +265,13 @@
   dependencies:
     "@types/d3-time" "*"
 
+"@types/d3-selection-multi@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@types/d3-selection-multi/-/d3-selection-multi-1.0.6.tgz#af238b7af1d72a442af28a902ec09302f93cca1c"
+  dependencies:
+    "@types/d3-selection" "*"
+    "@types/d3-transition" "*"
+
 "@types/d3-selection@*":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@types/d3-selection/-/d3-selection-1.1.0.tgz#59b88f10d2cff7d9ffd7fe986b3aaef3de048224"
@@ -1589,6 +1596,13 @@ d3-scale@1.0.6:
     d3-interpolate "1"
     d3-time "1"
     d3-time-format "2"
+
+d3-selection-multi@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/d3-selection-multi/-/d3-selection-multi-1.0.1.tgz#cd6c25413d04a2cb97470e786f2cd877f3e34f58"
+  dependencies:
+    d3-selection "1"
+    d3-transition "1"
 
 d3-selection@1, d3-selection@1.1.0, d3-selection@^1.1.0:
   version "1.1.0"

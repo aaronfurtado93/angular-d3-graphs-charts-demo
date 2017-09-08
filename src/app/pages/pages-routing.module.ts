@@ -16,8 +16,12 @@ const routes: Routes = [
     loadChildren: './bar-chart/bar-chart.module#BarChartModule'
   },
   {
+    path: 'not-found',
+    loadChildren: './not-found/not-found.module#NotFoundModule'
+  },
+  {
     path: '**',
-    redirectTo: ''
+    redirectTo: '/not-found'
   }
 ];
 
