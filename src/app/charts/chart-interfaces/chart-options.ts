@@ -3,10 +3,13 @@ export interface ChartOptions {
   chartContainerWidth: number;
   dataVisualizationPaddingBetweenItems: number;
   dataVisualizationPaddingChartTopPercent: number;
-  chartGradient?: string;
-  barRgbaColors?: {
-    red: number,
-    green: number,
-    blue: number
-  };
+  dataColoring?: Array<{
+    red: number;
+    redGradient?: string;
+    green: number;
+    greenGradient?: string;
+    blue: number;
+    blueGradient?: string;
+    transparency?: number;
+  }>;
 }
