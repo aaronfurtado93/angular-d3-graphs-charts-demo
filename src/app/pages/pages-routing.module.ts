@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/bar-chart',
+        redirectTo: '/enter-exit',
         pathMatch: 'full'
       },
       {

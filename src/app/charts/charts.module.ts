@@ -7,8 +7,8 @@ import { CEnterExitModule } from './c-enter-exit/center-exit.module';
 @NgModule({
   imports: [
     CommonModule,
-    CBarModule,
     ChartServicesModule,
+    CBarModule,
     CEnterExitModule
   ],
   declarations: [],
