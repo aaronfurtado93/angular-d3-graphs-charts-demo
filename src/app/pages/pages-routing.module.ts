@@ -21,6 +21,10 @@ const routes: Routes = [
         loadChildren: './bar-chart/bar-chart.module#BarChartModule'
       },
       {
+        path: 'enter-exit',
+        loadChildren: './enter-exit/enter-exit.module#EnterExitModule'
+      },
+      {
         path: 'not-found',
         loadChildren: './not-found/not-found.module#NotFoundModule'
       },
